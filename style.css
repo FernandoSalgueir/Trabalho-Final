@@ -1,0 +1,106 @@
+*{ 
+    margin:0 ;
+    padding: 0;
+}
+
+body {
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section, header, span, ul, li, a {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+    align-items: center;
+    background-color:whitesmoke;
+    position: fixed;
+    z-index: 999;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+#menu li a:hover {
+    color: red;
+    background-color: white;
+}
+
+#menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 1rem;
+}
+
+#menu li a {
+    color: black;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 3px;
+}
+
+#logo {
+    max-height: 7rem;
+}
+
+#serviços{
+    background-color: #01c3fe;
+    color: white;
+}
+
+#contactos{
+    background-color: #0b496d;
+    color: white;
+    height: 100%;
+    padding-bottom: 5rem;
+}
+
+#sobrenos{
+    background-color: #7e808c;
+    color: white;
+}
+
+#missao{
+    background-color: firebrick;
+    color: white;
+}
+
+#products{
+    background-color: #0b496d;
+    color: white;
+    height: 100%;
+    padding-bottom: 5rem;
+}
+
+#aboutus{
+    background-color: #7e808c;
+    color: white;
+}
+
+#contactos{
+    background-color: #00001a;
+    color: black;
+}
+
+#footer {
+    display: flex;
+    justify-content:space-between;
+    height:100%;
+    padding: 25px;
+    background-color: #090446;
+    color: whitesmoke;
+    text-align: right;
+
+}
