@@ -20,6 +20,7 @@ header {
     align-items: center;
     background-color:whitesmoke;
     position: fixed;
+    top:0;
     z-index: 999;
 }
 
@@ -29,7 +30,9 @@ html{
 
 section{
     width: 100%;
-    height: 100vh;
+    
+    text-align: center;
+    padding:2rem 0;
 }
 
 #menu li a:hover {
@@ -52,11 +55,17 @@ section{
 }
 
 #logo {
-    max-height: 7rem;
+    max-height: 4rem;
+}
+
+#home{
+    background-image: url(imagens/Hospital-Management-Software.jpg);
+    min-height: 200px;
+    margin-top: rem;
 }
 
 #serviços{
-    background-color: #01c3fe;
+    background-color: #ff0000;
     color: white;
 }
 
@@ -68,29 +77,18 @@ section{
 }
 
 #sobrenos{
-    background-color: #7e808c;
+    background-color: #ff0000;
     color: white;
 }
 
 #missao{
-    background-color: firebrick;
-    color: white;
-}
-
-#products{
-    background-color: #0b496d;
-    color: white;
-    height: 100%;
-    padding-bottom: 5rem;
-}
-
-#aboutus{
-    background-color: #7e808c;
+    padding-top: 5rem;
+    background-color: #ff0000;
     color: white;
 }
 
 #contactos{
-    background-color: #00001a;
+    background-color: #ff0000;
     color: black;
 }
 
@@ -99,7 +97,7 @@ section{
     justify-content:space-between;
     height:100%;
     padding: 25px;
-    background-color: #090446;
+    background-color: #1e8fdb;
     color: whitesmoke;
     text-align: right;
 
