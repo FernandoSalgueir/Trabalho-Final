@@ -1,15 +1,22 @@
 *{ 
     margin:0 ;
     padding: 0;
+    font-size:16px;
 }
 
 body {
-    font-size: 100%;
+    
     font-family: sans-serif;
 }
 
 div, section, header, span, ul, li, a {
     box-sizing: border-box;
+}
+h1{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.5rem;
 }
 
 header {
@@ -32,7 +39,11 @@ section{
     width: 100%;
     
     text-align: center;
-    padding:2rem 0;
+    padding:6rem 0;
+}
+
+section > h1 {
+    padding-bottom: 2rem;
 }
 
 #menu li a:hover {
@@ -60,8 +71,10 @@ section{
 
 #home{
     background-image: url(imagens/Hospital-Management-Software.jpg);
-    min-height: 200px;
-    margin-top: rem;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 400px;
+    margin-top: 6rem;
 }
 
 #serviços{
@@ -77,19 +90,23 @@ section{
 }
 
 #sobrenos{
-    background-color: #ff0000;
+    background-color: #4fa5f5;
     color: white;
+    font-size: rem;
+}
+#sobrenos p{
+    font-size: 25px;
 }
 
 #missao{
     padding-top: 5rem;
-    background-color: #ff0000;
+    background-color: #4fa5f5;
     color: white;
 }
 
 #contactos{
     background-color: #ff0000;
-    color: black;
+    color: white;
 }
 
 #footer {
